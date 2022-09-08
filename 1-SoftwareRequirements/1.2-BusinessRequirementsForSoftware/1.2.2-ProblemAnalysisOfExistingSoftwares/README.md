@@ -22,7 +22,7 @@
 <tr>
 <td>Ambient temperature
 https://www.techtarget.com/searchdatacenter/definition/ambient-temperature#:~:text=Ambient%20temperature%20is%20the%20air,system%20design%20and%20thermal%20analysis.</td>
-<td>20</td>
+<td>4</td>
 <td></td>
 <td></td>
 <td>Free</td>
@@ -42,7 +42,7 @@ https://www.who.int/about/governance/constitution#:~:text=Health%20is%20a%20stat
 https://www.collinsdictionary.com/dictionary/english/receive-information</td>
 <td></td>
 <td></td>
-<td>7</td>
+<td>2</td>
 <td>Shareware</td>
 <td></td>
 </tr>
