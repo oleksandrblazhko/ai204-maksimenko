@@ -1,0 +1,17 @@
+{
+  "Maps api": {
+    "Name": "Central Gallery",
+    "Rating": 5,
+    "Location": {
+      "coordX": 2000,
+      "coordY": 1500
+    }
+  },
+  "Consumer": {
+    "Name": "Andrew",
+    "Mail": "maksymenko.8864932@stud.op.edu.ua",
+    "Location": {
+      "coordX": 1001,
+      "coordY": 2002
+    }
+  }
