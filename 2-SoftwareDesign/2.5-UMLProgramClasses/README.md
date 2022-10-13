@@ -1,2 +1,2 @@
 ### UML-діаграма програмних класів
-![UMLProgramClasses](https://user-images.githubusercontent.com/79446015/195546376-1287b9b5-2c59-4ef7-800a-1b0e81abf70f.jpg)
+![UMLProgramClasses](https://user-images.githubusercontent.com/79446015/195550299-68b2a6b9-4b22-4324-a67b-81516fa4860b.jpg)
