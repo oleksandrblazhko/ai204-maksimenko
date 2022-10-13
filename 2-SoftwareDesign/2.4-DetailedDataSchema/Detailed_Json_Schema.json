@@ -1,0 +1,119 @@
+{
+  "description": "Опис предметної області ПП",
+  "type": "object",
+  "properties": {
+    "сonsumer": {
+      "description": "Інформація про користувача",
+      "type": "object",
+      "properties": {
+        "name": {
+          "description": "Iм'я користувача",
+          "type": "string",
+          "minLength": 1,
+  	  	  "maxLength": 10,
+          "pattern": "^[a-z_]+$"
+        },
+        "surname": {
+          "description": "Прізвище користувача",
+          "type": "string",
+          "minLength": 1,
+  	  	  "maxLength": 20,
+          "pattern": "^[a-z_]+$"
+        },
+        "email": {
+          "description": "Пошта користувача",
+          "type": "string",
+		  "minLength": 20,
+          "maxLength": 30,
+          "pattern": "^[a-z_]+$"
+        },
+        "consumer id": {
+          "description": "Id користувача",
+          "type": "integer",
+           "maxLength": 1000,
+           "pattern": "^[0-9]+$"
+        },
+        "Google maps Api": {
+          "description": "Опис програми для пошуку довколишніх об'єктів",
+          "type": "object",
+          "properties": {
+            "name of institutions": {
+              "description": "Назва установ",
+              "type": "string",
+               "minLength": 10,
+  	  	  	   "maxLength": 15,
+          	   "pattern": "^[a-z_]+$"
+            },
+            "rating": {
+              "description": "Рейтинг закладу",
+              "type": "integer",
+              "minimum": 1,
+              "exclusiveMaximum": 5,
+           	  "pattern": "^[0-9]+$"
+            },
+     
+          },
+          "required": [
+            "name of institution",
+            "rating"
+          ]
+        },
+        "weather and temperature api": {
+          "description": "Опис програми для стеження за температурою та якістю повітря.",
+          "type": "object",
+          "properties": {
+            "air quality": {
+              "description": "Якість поітря",
+              "type": "integer",
+              "minimum": 1,
+              "exclusiveMaximum": 100,
+               "pattern": "^[0-9]+$"
+            },
+            "temperature": {
+              "description": "Температура повітря",
+              "type": "number",
+              "minimum": -100,
+              "exclusiveMaximum": 100,
+              "pattern": "^[0-9]+$"
+            },
+
+          },
+          "required": [
+            "air quality",
+            "temperature",
+          ]
+        },
+          "Location": {
+          "description": "місце розташування",
+          "type": "object",
+          "properties": {
+            "x": {
+              "description": "1 координата",
+              "type": "number",
+              "minimum": -2048,
+              "exclusiveMaximum": 2048,
+              "pattern": "^[0-9]+$"
+            },
+            "y": {
+              "description": "2 координата",
+              "type": "number",
+              "minimum": -2048,
+              "exclusiveMaximum": 2048,
+              "pattern": "^[0-9]+$"
+            },
+          },
+            "required": [
+            "x",
+            "y",
+          ]
+        },
+      },
+      "required": [
+        "email",
+        "consumer id",
+        "x",
+        "y"
+      ]
+    }
+  }
+}
