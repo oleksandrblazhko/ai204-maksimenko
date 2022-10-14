@@ -5,5 +5,5 @@
 | FR1.2 | Система на основі данних з місцезнаходження шукає найближчі галереї для користувача | Google Maps Api | galleries_find(array)|
 | FR1.3 | Система надсилає користувачу відібрані алгоритмом найближчі галереї | Google Maps Api | send_result(integer) |
 | FR2.1 | Користувач надає інформацію про своє місцезнаходження ПП | Location | location_sharing(array) |
-| FR2.2 | Система на основі данних з місцезнаходження оцінює якість поітря та температуру біля користувача | Weather and Temperature Api|information_sharing(array)|
+| FR2.2 | Система на основі данних з місцезнаходження оцінює якість повітря та температуру біля користувача | Weather and Temperature Api|information_sharing(array)|
 | FR2.3 | Система надсилає користувачу оброблені дані якості повітря та температури  | Weather and Temperature Api |send_info(array)|
