@@ -1,0 +1,16 @@
+@startuml
+title Activity Diagram 
+
+start
+
+:User share location to program; 
+:Program checks user location;
+
+if (Is Location valid?) then (yes)
+  :Give info about nearest galleries;
+else (no)
+  :Your data is incorrect, please try again later;
+endif
+
+stop
+@enduml
