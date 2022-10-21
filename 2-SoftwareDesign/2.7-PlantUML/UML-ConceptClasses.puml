@@ -9,4 +9,5 @@ Class Location
 
 Consumer"1" o-- "1"Location
 Consumer"∞" o-- "1"Environment
+Location"1" o-- "1"Environment
 @enduml
