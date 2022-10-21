@@ -1,0 +1,22 @@
+@startjson
+
+title JSON Data
+{
+  "Map": {
+    "name": "Center gallery",
+    "rating": 4.5,
+    "location": {
+      "coordX": 1200,
+      "coordY": 1300
+    }
+  },
+  "consumer": {
+    "name": "Andrew",
+    "mail": "maksimenko@gmail.com",
+    "location": {
+      "coordX": 1500,
+      "coordY": 1450
+    }
+  }
+}
+@endjson

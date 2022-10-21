@@ -1,0 +1,14 @@
+@startuml
+title Concept of Classes Diagram 
+
+Class Map
+Class Consumer
+Class Environment
+Class Location
+
+
+Consumer"1" o-- "1"Location
+Consumer"∞" o-- "1"Environment
+Map"1" o-- "1"Location
+Consumer"∞" o-- "1"Map
+@enduml
